@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.repository;
 
 import com.example.model.Student;
 import com.example.util.DBUtil;
@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentService {
+public class StudentRepository {
 
     public void insertStudent(Student s) {
         String sql = "INSERT INTO student_sports (name, sport, age) VALUES (?, ?, ?)";

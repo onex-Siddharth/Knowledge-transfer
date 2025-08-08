@@ -1,7 +1,7 @@
 package src.main.java.com.example.example;
 
 import com.example.model.Student;
-import com.example.service.StudentService;
+import com.example.repository.StudentRepository;
 import com.example.util.DBUtil;
 import src.main.java.com.example.example.service.CsvExporter;
 
